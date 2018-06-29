@@ -1,6 +1,6 @@
 // 配置
 // 本地接口
-const host = 'http://192.168.253.2:5757'
+const host = 'http://192.168.43.87:5757'
 
 const config = {
   host,
