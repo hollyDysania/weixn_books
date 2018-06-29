@@ -12,14 +12,14 @@ export default {
   config: {
     // 页面前带有 ^ 符号的，会被编译成首页，其他页面可以选填，我们会自动把 webpack entry 里面的入口页面加进去
     // pages: [ '^pages/my-center/main'],
-    pages: [ '^pages/comment/main'],
+    pages: ['^pages/books/main'],
     window: {
       backgroundTextStyle: 'light',
       navigationBarBackgroundColor: '#4269AE',
       navigationBarTitleText: '小小图书馆',
       navigationBarTextStyle: 'light'
     },
-    "tabBar": {
+    'tabBar': {
       selectedColor: '#4269AE',
       list: [
         {
