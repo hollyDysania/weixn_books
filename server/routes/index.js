@@ -31,6 +31,10 @@ router.post('/tunnel', controllers.tunnel.post)
 router.get('/message', controllers.message.get)
 // POST 用来处理微信转发过来的客服消息
 router.post('/message', controllers.message.post)
+// --- 测试接口 Demo --- //
 router.get('/test', controllers.test)
+// --- 添加图书接口 --- //
+router.post('/addbook', controllers.addbook)
+
 
 module.exports = router
