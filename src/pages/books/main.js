@@ -4,3 +4,9 @@ import Books from './books'
 const app = new Vue(Books)
 // 手动挂载
 app.$mount()
+
+export default {
+  config: {
+    enablePullDownRefresh: true
+  }
+}

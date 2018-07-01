@@ -36,6 +36,7 @@ router.get('/test', controllers.test)
 // --- 图书接口 --- //
 router.post('/addbook', controllers.addbook)
 router.get('/booklist', controllers.booklist)
-
-
+router.get('/bookdetail', controllers.bookdetail)
+// --- 轮播图 --- //
+router.get('/top', controllers.top)
 module.exports = router
